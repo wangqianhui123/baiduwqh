@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册</title>
+    <link rel="stylesheet" href="./layout.css">
+</head>
+<body>
+    <div class="contrain">
+        <div class="col">
+            <span>用户:</span>
+            <input type="text" name="" id="name" class="input" placeholder=" 请设置用户名">
+            <br>
+            <div id="name-msg"></div>
+        </div>
+        <div class="col">
+            <span>手机号:</span>
+            <input type="text" class="input" id="telephone" placeholder="可用于登录及找回密码">
+            <br>
+            <div id="tel-msg"></div>
+
+        </div>
+        <div class="col">
+            <span>密码:</span>
+            <input type="text" name="" id="password" class="input" placeholder="请设置登录密码">
+            <br>
+            <div id="pwd-msg"></div>
+
+        </div>
+        <div class="col3 col">
+            <span>验证码:</span>
+            <input type="text" name="" id="password_id" class="input" placeholder="请输入验证码">
+            <input type="button" value="获取验证码" class="button" id="getId">
+            <br>
+            <div id="pwdd-msg"></div>
+
+        </div>
+        <div class="col4">
+            <input type="checkbox" name="" id="" class="right">
+            <span style="display:inline;">阅读并接受<a href="#" id="one">《百度用户条例》</a>和<a href="#" id="two">《百度隐私保护声明》</a></span>
+        </div>
+        <div >
+            <button id="submit" class="submit">注册</button>
+        </div>
+    </div>
+    <script src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
