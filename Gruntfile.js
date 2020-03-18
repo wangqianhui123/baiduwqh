@@ -10,11 +10,11 @@ module.exports = function (grunt) {
         dest: 'dist/index.html'
       }
     },
+    cssmin: {
+        'dist/layout.css': 'layout.css'
+    },
     uglify: {
       'dist/main.js': 'main.js'
-    },
-    cssmin: {
-      'dist/layout.css': 'public/layout.css'
     }
   });
 
